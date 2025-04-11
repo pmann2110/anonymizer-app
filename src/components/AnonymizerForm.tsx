@@ -219,7 +219,7 @@ export default function AnonymizerForm() {
             <textarea
               value={bulkRulesInput}
               onChange={(e) => setBulkRulesInput(e.target.value)}
-              placeholder="Example:&#10;Company Name|\\bABC\\b|[Company]"
+              placeholder="Example:&#10;Company Name|\bABC\b|[Company]"
               className="w-full h-32 p-2 border rounded dark:bg-gray-800 dark:border-gray-600"
             />
             <button
