@@ -96,7 +96,7 @@ export function parseBulkRules(input: string): AnonymizationRule[] {
         try {
           new RegExp(actualPattern);
         } catch (e) {
-          console.warn('Invalid regex pattern:', actualPattern);
+          console.warn('Invalid regex pattern:', actualPattern, e);
           return null;
         }
 
