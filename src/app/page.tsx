@@ -9,8 +9,7 @@ export default function Home() {
             Text Anonymizer
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Protect sensitive information by automatically detecting and masking personal data such as names, 
-            email addresses, phone numbers, dates, and more.
+            Protect sensitive information by automatically detecting and masking data.
           </p>
         </div>
         <AnonymizerForm />
